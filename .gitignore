@@ -8,3 +8,9 @@ yarn-debug.log*
 yarn-error.log*
 .env
 .vercel
+node_modules
+.next
+out
+dist
+.env
+.env.*
