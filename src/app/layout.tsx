@@ -5,8 +5,8 @@ import type { Metadata } from 'next';
 import React from 'react';
 
 export const metadata: Metadata = {
-  title: 'Spain Brain Bee',
-  description: 'Official site for Brain Bee España',
+  title: 'Brain Bee España',
+  description: 'Spanish Neuroscience Competition for Teens',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
