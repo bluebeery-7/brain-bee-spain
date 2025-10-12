@@ -105,7 +105,7 @@ export default function ContactSection() {
       viewport={{ once: false }}
       transition={{ duration: 0.45, ease: easeOutCubic }}
     >
-      We are happy to answer questions or help you get involved with Brain Bee Espana.
+      We are happy to answer questions or help you get involved with Brain Bee España.
     </motion.p>
   </div>
 
@@ -131,7 +131,7 @@ export default function ContactSection() {
     {'Let\'s talk'}
     <motion.span
       animate={{ rotate: open ? 180 : 0 }}
-      transition={{ type: 'tween', duration: 5 }}
+      transition={{ type: 'tween', duration: 0.5}}
       className="inline-flex"
     >
       <ChevronDownIcon className="h-4 w-4" />

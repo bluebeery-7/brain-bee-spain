@@ -31,7 +31,7 @@ return (
   </h1>
 
   <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-200 mb-8 drop-shadow-md">
-    The Spanish Brain Bee is a national neuroscience competition for curious high school students under 19. Challenging minds, growing curiosity, and connecting Spanish students to an exciting global science stage, competing against countries all over the world.
+    The Spanish Brain Bee is a national neuroscience competition for curious high school students under 19. Challenging curiosity, and connecting Spanish students to an exciting global science stage, competing against countries all over the world.
   </p>
 
 <div className="mt-6 flex justify-center">
