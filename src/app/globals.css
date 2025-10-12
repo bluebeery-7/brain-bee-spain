@@ -5,13 +5,6 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -20,7 +13,69 @@
 }
 
 body {
-  background: var(--background);
+  background: transparent;
+  min-height: 100vh;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 15s ease infinite;
+}
+
+
+@keyframes borderPulse {
+  0% {
+    opacity: 0;
+    box-shadow: 0 0 0 0 rgba(168, 85, 247, 0.6);
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.4);
+  }
+  100% {
+    opacity: 0;
+    box-shadow: 0 0 0 0 rgba(168, 85, 247, 0.6);
+  }
+}
+
+.animate-borderPulse {
+  animation: borderPulse 1.5s ease-in-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root { --font-display: ui-sans-serif, system-ui; }
+.h-display { font-family: var(--font-display); }
+
+
+
+/* === Final background for Resources + Contact === */
+.final-bg {
+  position: relative;
+  background-image: url('/images/final-bg.webp'); /* put file at /public/images/final-bg.jpg */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* remove this line if Safari gives you trouble */
+}
+
+.final-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.66); /* darken for readability */
+  pointer-events: none;
 }
