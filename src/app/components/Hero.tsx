@@ -18,7 +18,7 @@ return (
 <motion.div
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 2 }}
+  transition={{ duration: 1.6 }}
   viewport={{ once: false, amount: 1 }}
   className="relative z-10 px-6"
 >
