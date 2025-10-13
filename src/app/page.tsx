@@ -63,7 +63,7 @@ export default function HomePage() {
       id: 'topics',
 desc: (
   <>
-    <p>All Brain Bee competitions are based on either <em>“Brain Facts”</em> by the Society for Neuroscience or <em>“Neuroscience: The Science of the Brain”</em>.</p>
+    <p>All Brain Bee competitions are based on either the book <em>“Brain Facts”</em> by the Society for Neuroscience or <em>“Neuroscience: The Science of the Brain”</em>.</p>
     <p className="mt-4">For the Spanish Brain Bee, students will prepare using study materials specifically curated and adapted for Spain’s neuroscience curriculum. These materials are based on <em>Brain Facts</em>, but simplified to match the level of local science education.</p>
   </>
 ),

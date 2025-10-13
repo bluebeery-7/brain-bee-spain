@@ -24,7 +24,7 @@ function ChevronDownIcon(props: React.SVGProps<SVGSVGElement>) {
 type Person = { name: string; role: string; email: string };
 
 const CONTACTS: Person[] = [
-  { name: 'Naomi Bork', role: 'Spanish Brain Bee - Founder & National Coordinator', email: 'naomibork7@icloud.com' },
+  { name: 'Naomi Bork', role: 'Spanish Brain Bee - Founder & National Coordinator', email: 'naomi.brainbee@outlook.com' },
   { name: 'Ionut Dumitru', role: 'Academic Director - International Brain Bee', email: 'ionut.dumitru@thebrainbee.org' },
 ];
 
