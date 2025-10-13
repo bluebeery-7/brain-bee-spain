@@ -48,7 +48,7 @@ export default function StartAChapterPage() {
           className="space-y-4"
         >
           <h1 className="text-3xl md:text-4xl font-semibold text-center mb-4 bg-clip-text drop-shadow-xl">
-  START A LOCAL CHAPTER
+  Start a Chapter
 </h1>
           <p className="text-lg text-gray-300 mb-10 leading-tight mb-6 drop-shadow-xl text-white">
             Bring Brain Bee to your local community! Fill out the form below and I’ll reach out with help and resources to get your chapter running.
