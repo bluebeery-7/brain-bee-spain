@@ -81,7 +81,7 @@ export default function ContactSection() {
         className="mt-2 text-3xl md:text-7xl font-extrabold leading-[0.95] tracking-tight text-white"
       >
         <span className="block">Want to</span>
-        <span className="block bg-gradient-to-r from-purple-200 via-white to-fuchsia-400 bg-clip-text text-transparent">
+        <span className="block bg-gradient-to-r from-purple-300 via-white to-fuchsia-400 bg-clip-text text-transparent">
           learn more?
         </span>
       </motion.h2>
@@ -89,7 +89,7 @@ export default function ContactSection() {
       {/* underline flourish */}
       <motion.div
         variants={line}
-        className="mt-4 h-[2px] w-32 md:w-48 bg-gradient-to-r from-purple-400 via-white to-purple-400"
+        className="mt-4 h-[2px] w-32 md:w-48 bg-gradient-to-r from-purple-300 via-pink to-purple-300"
         initial={{ scaleX: 0 }}
         whileInView={{ scaleX: 1.5}}
         viewport={{ once: false }}
