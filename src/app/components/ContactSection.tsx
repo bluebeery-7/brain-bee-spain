@@ -89,7 +89,7 @@ export default function ContactSection() {
       {/* underline flourish */}
       <motion.div
         variants={line}
-        className="mt-4 h-[2px] w-32 md:w-48 bg-gradient-to-r from-purple-400 via-white to-purple-400"
+        className="mt-4 h-[2px] w-32 md:w-48 bg-gradient-to-r from-pink-400 via-white to-pink-400"
         initial={{ scaleX: 0 }}
         whileInView={{ scaleX: 1.5}}
         viewport={{ once: false }}
