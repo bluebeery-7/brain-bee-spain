@@ -19,6 +19,7 @@ return (
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 1 }}
+  viewport={{ once: false, amount: 0.3 }}
   className="relative z-10 px-6"
 >
   <p className="text-lg text-gray-300 uppercase tracking-widest mb-2">
