@@ -234,13 +234,13 @@ const resourceCards = [
       <span className="absolute inset-0 border border-purple-500 opacity-0 group-hover:opacity-100 animate-borderPulse rounded-lg pointer-events-none"></span>
     </a>
 
-    <a href="/pdfs/2014 Mock Answers.pdf" target="_blank" rel="noopener noreferrer" className="group relative block p-6 rounded-lg bg-black bg-opacity-40 border border-white border-opacity-60 hover:border-purple-500 transition duration-300 overflow-hidden">
+    <a href="/pdfs/2014 Mock Test Answers.pdf" target="_blank" rel="noopener noreferrer" className="group relative block p-6 rounded-lg bg-black bg-opacity-40 border border-white border-opacity-60 hover:border-purple-500 transition duration-300 overflow-hidden">
       <h3 className="text-xl font-bold mb-2">2014 Mock Answers</h3>
       <p>Answer key for self-checking</p>
       <span className="absolute inset-0 border border-purple-500 opacity-0 group-hover:opacity-100 animate-borderPulse rounded-lg pointer-events-none"></span>
     </a>
 
-    <a href="/pdfs/Brain Facts.pdf" target="_blank" rel="noopener noreferrer" className="group relative block p-6 rounded-lg bg-black bg-opacity-40 border border-white border-opacity-60 hover:border-purple-500 transition duration-300 overflow-hidden">
+    <a href="/pdfs/Brain Facts 2012.pdf" target="_blank" rel="noopener noreferrer" className="group relative block p-6 rounded-lg bg-black bg-opacity-40 border border-white border-opacity-60 hover:border-purple-500 transition duration-300 overflow-hidden">
       <h3 className="text-xl font-bold mb-2">Brain Facts copy</h3>
       <p>The official neuroscience primer used by Brain Bee competitions.</p>
       <span className="absolute inset-0 border border-purple-500 opacity-0 group-hover:opacity-100 animate-borderPulse rounded-lg pointer-events-none"></span>
