@@ -1,5 +1,4 @@
 'use client';
-import { Analytics } from "@vercel/analytics/next"
 
 function ResetOnMount() {
   useEffect(() => {
