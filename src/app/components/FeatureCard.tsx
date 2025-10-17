@@ -22,7 +22,7 @@ export default function FeatureCard({ title, desc, icon, href, image }: FeatureC
         backgroundPosition: 'center',
       }}
     >
-      {/* Overlay */}
+
       <div className="absolute inset-0 bg-black bg-opacity-60 p-6 flex flex-col justify-between">
         <div>
           <img src={icon} alt="" className="w-8 h-8 mb-4" />

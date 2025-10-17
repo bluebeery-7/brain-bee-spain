@@ -109,7 +109,7 @@ export default function ContactSection() {
     </motion.p>
   </div>
 
-  {/* RIGHT: button — moved left & slightly up, with cooler motion */}
+
   <motion.button
     onClick={() => setOpen(v => !v)}
     aria-expanded={open}

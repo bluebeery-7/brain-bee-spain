@@ -19,7 +19,7 @@ return (
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 1.4 }}
-  viewport={{ once: false, amount: 'all'}}
+  viewport={{ once: false, amount: 1}}
   className="relative z-10 px-6"
 >
   <p className="text-lg text-gray-300 uppercase tracking-widest mb-2">
@@ -43,8 +43,6 @@ return (
 
     </section>
 ); }
-
-
 
 
 // Inline "Learn More" bubble menu

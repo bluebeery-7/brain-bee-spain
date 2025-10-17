@@ -7,7 +7,7 @@ type SplitSectionProps = {
   title: string;
   description: React.ReactNode;
   image: string;
-  imageClass?: string; // ← add this!
+  imageClass?: string; 
   reverse?: boolean;
   linkText?: string;
   linkHref?: string;

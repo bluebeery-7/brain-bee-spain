@@ -3,6 +3,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import React from 'react';
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: 'Brain Bee España',
